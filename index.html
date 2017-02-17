@@ -1,0 +1,512 @@
+<!--
+    Created By Tazdik Ershad.
+    Date: 24th Jan, 2017.
+    email: tazdik.ershad@gmail.com
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Demo</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="lib/jquery/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <link href="lib/4/thumbs2.css" rel="stylesheet" />
+    <link href="lib/4/thumbnail-slider.css" rel="stylesheet" />
+    <script src="lib/4/thumbnail-slider.js" type="text/javascript"></script>
+
+    <script src="index.js"></script>
+    <link href="lib/ninjaslider/5/ninja-slider.css" rel="stylesheet" type="text/css" />
+    <!--ninjaVideoPlugin.js is required only when the slider contains video or audio.-->
+    <script src="lib/ninjaslider/5/ninjaVideoPlugin.js"></script>
+    <script src="lib/ninjaslider/5/ninja-slider.js" type="text/javascript"></script>
+    
+</head>
+<body>
+
+    <div class="w3-row w3-top head_nav w3-card-4">
+        <div class="w3-col w3-container" style="width:20%">
+            <div class="w3-row">
+                <div class="w3-quarter head_nav_img">
+                    <img src="./assets/images/doctor1.png" width="40" height="40">
+                </div>
+                <div class="w3-rest">  
+                    <span style=" color: #65bab5; font-size: 17px;">Bernard Bates</span><br/>
+                    <span style="color: #5e5e5e; font-size: 11px;">Physical Therapy Expert</span>
+                </div>
+            </div>
+        </div>
+        <div class="w3-col head_nav_list" style="width:65%">
+            <ul class="w3-navbar w3-topnav w3-container">
+                <li><a class="active" href="#">Dr. John</a></li>
+                <li><a href="#">Specialities</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">New Patients</a></li>
+                <li><a href="#">Specials</a></li>
+                <li><a href="#">Insuarance</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="w3-col head_nav_btn" style="width:15%">
+            <button class="w3-btn w3-round">
+                <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                Book Now
+            </button>
+        </div>
+    </div>
+    
+    <div class="bg_cover">
+        <div id='ninja-slider'>
+            <div class="slider-inner">
+                <ul>
+                    <li>
+                        <div class="video">
+                            <iframe src="https://player.vimeo.com/video/93292237" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <a class="ns-img" href="assets/images/2.jpg"></a>
+                        <div class="caption">Supports Youtube, Vimeo and HTML video/audio</div>
+                        <div class="video-playbutton-layer"></div>
+                    </li>
+                    <li>
+                        <div class="video">
+                            <iframe src="https://www.youtube.com/embed/Bp119VFEjHE?enablejsapi=1&start=216&rel=0&showinfo=0&iv_load_policy=3&modestbranding=1" frameborder="0" allowfullscreen data-autoplay="false"></iframe>
+                        </div>
+                        <a class="ns-img" href="assets/images/3.jpg"></a>
+                        <div class="caption">This video starts from 3:36</div>
+                        <div class="video-playbutton-layer"></div>
+                    </li>
+                    <li>
+                        <div class="video">
+                            <iframe src="https://player.vimeo.com/video/93292237" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <a class="ns-img" href="assets/images/2.jpg"></a>
+                        <div class="caption">Supports Youtube, Vimeo and HTML video/audio</div>
+                        <div class="video-playbutton-layer"></div>
+                    </li>
+                    <li>
+                        <div class="video">
+                            <iframe src="https://www.youtube.com/embed/Bp119VFEjHE?enablejsapi=1&start=216&rel=0&showinfo=0&iv_load_policy=3&modestbranding=1" frameborder="0" allowfullscreen data-autoplay="false"></iframe>
+                        </div>
+                        <a class="ns-img" href="assets/images/3.jpg"></a>
+                        <div class="caption">This video starts from 3:36</div>
+                        <div class="video-playbutton-layer"></div>
+                    </li>
+                </ul>
+                <div class="fs-icon"></div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="w3-panel w3-card-4 w3-row contact_section">
+        <div class="w3-col" style="width:30%">
+            <div class="w3-row">
+                <div class="w3-col" style="width: 20%">
+                    <i style="color:black" class="fa fa-mobile fa-2x" aria-hidden="true"></i>
+                </div>
+                <div class="w3-col" style="width: 80%">
+                    <span style="color: #000; font-size: 17px;">Give us a Call</span></br>
+                    <span style="color: #5e5e5e; font-size: 13px;">(+880) 1676 074943</span>
+                </div>
+            </div>
+        </div>
+        <div class="w3-col" style="width:40%">
+            <div class="w3-row">
+                <div class="w3-col" style="width: 20%">
+                    <i style="color:black" class="fa fa-calendar-minus-o fa-2x" aria-hidden="true"></i>
+                </div>
+                <div class="w3-col" style="width: 80%">
+                    <span style="color: #000; font-size: 17px;">Make an Appointment</span></br>
+                    <span style="color: #5e5e5e; font-size: 13px;">Book an Appointment</span>
+                </div>
+            </div>
+        </div>
+        <div class="w3-col" style="width:30%">
+            <div class="w3-row">
+                <div class="w3-col" style="width: 30%">
+                    <i style="color:black" class="fa fa-map-o fa-2x" aria-hidden="true"></i>
+                </div>
+                <div class="w3-col" style="width: 70%">
+                    <span style="color: #000; font-size: 17px;">Visit Us</span></br>
+                    <span style="color: #5e5e5e; font-size: 13px;">Our Location</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="org_logo">
+        <img src="assets/images/logo1.png">
+    </div>
+
+    <div class="org_moto w3-panel w3-card-4">
+        <p style="font-size: 17px; color: #2f2f2f;">About the Genuine Care Dental</p>
+        <p style="font-size: 0.85em; color: #acacac;"> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p style="font-size: 0.85em; color: #acacac;"> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+
+    <div class="person_card w3-panel w3-card-4">
+        <div class="person_title w3-row">
+            <div class="w3-col" style="width:20%">
+                <img class="person_img" src="./assets/images/doctor1.png" width="70" height="70">
+            </div>
+            
+            <div class="w3-col" style="width:80%">
+                <span class="person_name">Bernard Bates</span>
+                <p>
+                    <img class="social_img" src="assets/images/social/linkedin.png" width="30" height="30">
+                    <img class="social_img" src="assets/images/social/gplus.png" width="30" height="30">
+                    <img class="social_img" src="assets/images/social/twitter.png" width="30" height="30">
+                </p>
+            </div>
+        </div>
+        <div class="person_skills w3-row">
+            <div class="w3-third">
+                <p><i class="fa fa-graduation-cap fa-2x" style="color: #4dc6c1;" aria-hidden="true"></i><span style="color: #5e5e5e; font-size: 20px; vertical-align: super;">   Education</span></p>
+                <span>University of Alabama</span></br>
+                <span>Alabama, Houston</span></br>
+            </div>
+            <div class="w3-third">
+                <p><i class="fa fa-credit-card fa-2x" style="color: #4dc6c1;" aria-hidden="true"></i><span style="color: #5e5e5e; font-size: 20px; vertical-align: super;">   Membership</span></p>
+                <span>Lorem Ipsum</span></br>
+                <span>Lorem Ipsum, Lorem Ipsum, Lorem Ipsum</span></br>
+            </div>
+            <div class="w3-third">
+                <p><i class="fa fa-sort-alpha-asc fa-2x" style="color: #4dc6c1;" aria-hidden="true"></i><span style="color: #5e5e5e; font-size: 20px; vertical-align: super;">   Languages</span></p>
+                <span>English</span></br>
+                <span>Chinese</span></br>
+            </div>
+        </div>
+        <div class="person_desc">
+            <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>  
+        </div>
+    </div>
+    
+    <div class="curtain"></div>
+
+    <div class="image_strip">
+        <div style="background:#fefefe;">
+            <div id="thumbnail-slider">
+                <div class="inner">
+                    <ul>
+                        <li>
+                            <a class="thumb" href="assets/images/1.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="assets/images/2.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="assets/images/3.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="assets/images/4.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="assets/images/5.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="assets/images/6.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="assets/images/7.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="assets/images/8.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="assets/images/9.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="assets/images/10.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="assets/images/11.jpg"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="thumbs2" style="display:none;">
+                <div class="inner">
+                    <ul>
+                        <li>
+                            <a class="thumb" href="assets/images/1.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="assets/images/2.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="assets/images/3.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="assets/images/4.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="assets/images/5.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="assets/images/6.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="assets/images/7.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="assets/images/8.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="assets/images/9.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="assets/images/10.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="assets/images/11.jpg"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="closeBtn">CLOSE</div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="recommendation_list">
+        <div class="w3-center">
+            <p style="font-size: 17px; margin-bottom: 40px;">Staffs</p>
+        </div>
+        <div class="w3-row">
+            <div class="w3-quarter w3-card-4 w3-light-grey">
+                <div class="w3-container w3-center">
+                    <img class="avatar" src="assets/images/doctor1.png" alt="Norway">
+                    <p style="margin-top: 25px;">Dr. Anna Hathaway</p>
+                    <p style="color: #4dc6c1; font-size:0.8em;">Dental Consultant</p>
+                </div>
+                <div class="w3-container w3-center" style="margin-top: 25px;">
+                    <img class="social_img" src="assets/images/social/linkedin.png" width="30" height="30">
+                    <img class="social_img" src="assets/images/social/gplus.png" width="30" height="30">
+                    <img class="social_img" src="assets/images/social/twitter.png" width="30" height="30">
+                </div>
+            </div>
+            <div class="w3-quarter w3-card-4 w3-light-grey">
+                <div class="w3-container w3-center">
+                    <img class="avatar" src="assets/images/doctor1.png" alt="Norway">
+                    <p style="margin-top: 25px;">Dr. Anna Hathaway</p>
+                    <p style="color: #4dc6c1; font-size:0.8em;">Dental Consultant</p>
+                </div>
+                <div class="w3-container w3-center" style="margin-top: 25px;">
+                    <img class="social_img" src="assets/images/social/linkedin.png" width="30" height="30">
+                    <img class="social_img" src="assets/images/social/gplus.png" width="30" height="30">
+                    <img class="social_img" src="assets/images/social/twitter.png" width="30" height="30">
+                </div>
+            </div>
+            <div class="w3-quarter w3-card-4 w3-light-grey">
+                <div class="w3-container w3-center">
+                    <img class="avatar" src="assets/images/doctor1.png" alt="Norway">  
+                    <p style="margin-top: 25px;">Dr. Anna Hathaway</p>
+                    <p style="color: #4dc6c1; font-size:0.8em;">Dental Consultant</p>
+                </div>
+                <div class="w3-container w3-center" style="margin-top: 25px;">
+                    <img class="social_img" src="assets/images/social/linkedin.png" width="30" height="30">
+                    <img class="social_img" src="assets/images/social/gplus.png" width="30" height="30">
+                    <img class="social_img" src="assets/images/social/twitter.png" width="30" height="30">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="another_section w3-container w3-center">
+        <p style="font-size: 17px;">Insuarance</p>
+        <p style="font-size: 13px; text-align: center; color: #acacac;">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </div>
+
+    <div class="another_section w3-container w3-center">
+        <img src="assets/images/insuarance_img.png">
+    </div>
+
+    <div class="social_news w3-card">
+        <div class="w3-center"><strong>yelp </strong><i style="color: #df0600;" class="fa fa-yelp fa-3x" aria-hidden="true"></i></div>
+        <p style="font-size: small;">Seb L.., <span style="color: #5e5e5e;">April 20</span></p>
+        <p style="font-size: 20px; font-family: 'MontserratThin';">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
+    </div>
+
+    <div class="specialities">
+        <div class="w3-container w3-center" style="margin-top: 140px;">
+            <p><strong>Specialties</strong></p>   
+        </div>
+        <div  class="w3-row">
+            <div class="w3-quarter w3-card-2 w3-hover-shadow w3-light-grey reco w3-display">   
+                <img src="assets/images/doctor2.jpg">
+                <div class="w3-display-right w3-container">
+                    <p style="color: #fefefe; text-align: center;"><strong>Dental Implant</strong></p>
+                    <p style="font-size:0.8em; text-align: center; color: #fefefe;">Lorem Ipsum, Lorem Ipsum</p>
+                </div>
+                 <div class="w3-display-bottommiddle w3-container" style="margin-bottom: 15px; margin-left: 30px;">
+                     <button class="w3-btn w3-round">
+                        Book Now
+                    </button>
+                 </div>
+            </div>
+            <div class="w3-quarter w3-card-2 w3-hover-shadow w3-light-grey reco w3-display">   
+                <img src="assets/images/doctor2.jpg">
+                <div class="w3-display-right w3-container">
+                    <p style="color: #fefefe; text-align: center;"><strong>Dental Implant</strong></p>
+                    <p style="font-size:0.8em; text-align: center; color: #fefefe;">Lorem Ipsum, Lorem Ipsum</p>
+                </div>
+                 <div class="w3-display-bottommiddle w3-container" style="margin-bottom: 15px; margin-left: 30px;">
+                     <button class="w3-btn w3-round">
+                        Book Now
+                    </button>
+                 </div>
+            </div>
+            <div class="w3-quarter w3-card-2 w3-hover-shadow w3-light-grey reco w3-display">   
+                <img src="assets/images/doctor2.jpg">
+                <div class="w3-display-right w3-container">
+                    <p style="color: #fefefe; text-align: center;"><strong>Dental Implant</strong></p>
+                    <p style="font-size:0.8em; text-align: center; color: #fefefe;">Lorem Ipsum, Lorem Ipsum</p>
+                </div>
+                 <div class="w3-display-bottommiddle w3-container" style="margin-bottom: 15px; margin-left: 30px;">
+                     <button class="w3-btn w3-round">
+                        Book Now
+                    </button>
+                 </div>
+            </div>
+        </div>
+        <div  class="w3-row">
+            <div class="w3-col w3-card-2 w3-hover-shadow w3-light-grey reco w3-display" style="width: 22%;">   
+                <img src="assets/images/doctor2.jpg" width="250" height="250">
+                <div class="w3-display-right w3-container">
+                    <p style="color: #fefefe; text-align: center;"><strong>Dental Implant</strong></p>
+                    <p style="font-size:0.8em; text-align: center; color: #fefefe;">Lorem Ipsum, Lorem Ipsum</p>
+                </div>
+                 <div class="w3-display-bottommiddle w3-container" style="margin: 15px;">
+                     <button class="w3-btn w3-round">
+                        Book Now
+                    </button>
+                 </div>
+            </div>
+            <div class="w3-col w3-card-2 w3-hover-shadow w3-light-grey reco w3-display" style="width: 22%;">   
+                <img src="assets/images/doctor2.jpg" width="250" height="250">
+                <div class="w3-display-right w3-container">
+                    <p style="color: #fefefe; text-align: center;"><strong>Dental Implant</strong></p>
+                    <p style="font-size:0.8em; text-align: center; color: #fefefe;">Lorem Ipsum, Lorem Ipsum</p>
+                </div>
+                 <div class="w3-display-bottommiddle w3-container" style="margin: 15px;">
+                     <button class="w3-btn w3-round">
+                        Book Now
+                    </button>
+                 </div>
+            </div>
+            <div class="w3-col w3-card-2 w3-hover-shadow w3-light-grey reco w3-display" style="width: 22%;">   
+                <img src="assets/images/doctor2.jpg" width="250" height="250">
+                <div class="w3-display-right w3-container">
+                    <p style="color: #fefefe; text-align: center;"><strong>Dental Implant</strong></p>
+                    <p style="font-size:0.8em; text-align: center; color: #fefefe;">Lorem Ipsum, Lorem Ipsum</p>
+                </div>
+                 <div class="w3-display-bottommiddle w3-container" style="margin: 15px;">
+                     <button class="w3-btn w3-round">
+                        Book Now
+                    </button>
+                 </div>
+            </div>
+            <div class="w3-col w3-card-2 w3-hover-shadow w3-light-grey reco w3-display" style="width: 22%;">   
+                <img src="assets/images/doctor2.jpg" width="250" height="250">
+                <div class="w3-display-right w3-container">
+                    <p style="color: #fefefe; text-align: center;"><strong>Dental Implant</strong></p>
+                    <p style="font-size:0.8em; text-align: center; color: #fefefe;">Lorem Ipsum, Lorem Ipsum</p>
+                </div>
+                 <div class="w3-display-bottommiddle w3-container" style="margin: 15px;">
+                     <button class="w3-btn w3-round">
+                        Book Now
+                    </button>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact_detail w3-row">
+        <div class="w3-half">
+            <div id="map" style="width:100%;height:300px"></div>
+        </div>
+        <div class="w3-half">
+            <div class="places w3-container">
+                <p>
+                    <span>Alpine</span>
+                    <span>Alpine</span>
+                    <span>Alpine</span>
+                    <span>Alpine</span>
+                    <span>Alpine</span>
+                </p>
+                <p>
+                    <span>Alpine</span>
+                    <span>Alpine</span>
+                    <span>Alpine</span>
+                    <span>Alpine</span>
+                    <span>Alpine</span>
+                </p>
+            </div>
+            <div class="w3-row" style="background-color: #4dc6c1; height: 166px;">
+                <div class="w3-half w3-left" style="padding: 2% 0px 2% 14%;">
+                    <p style="color:#fefefe; font-size: medium;">CONTACT DETAILS</p>
+                    <p style="color:#fefefe;"><i class="fa fa-address-card-o" aria-hidden="true">       123, Etehel Street, City,  State</i></p>
+                    <p style="color:#fefefe;"><i class="fa fa-phone" aria-hidden="true">        (+123) 2345678</i></p>
+                </div>
+                <div class="w3-half w3-left" style="padding: 2% 0px 2% 10%;">
+                     <p style="color:#fefefe; font-size: medium;">WORKING HOURS</p>
+                    <p style="color:#fefefe; font-size: smaller;">Mon-Fri      10.00 am - 5.00 pm</p>
+                    <p style="color:#fefefe; font-size: smaller;">SAT - SUN    closed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer w3-row">
+        <div class="w3-half name_card">
+            <p style="color:#5fbeba;"><strong>Dr. Bernard Barts</strong></p>
+            <p style="color:#737c8b; font-size: 0.8em;">123, Ethel Street, City, State, Country</p>
+            <p style="color:#737c8b; font-size: 0.8em;">(+123) 4560987</p><br/>
+            <p style="color:#fbffff; font-size: 0.9em;">&copy; 2016, Growthplug, Allrights Reserved</p>
+        </div>
+        <div class="w3-half w3-row w3-container">
+            <div class="w3-col" style="width: 30%">
+                <p style="color:#fbffff; font-size: small;"><strong>S E R V I C E S</strong></p>
+                <p style="color:#737c8b; font-size: 0.8em;">Lorem Ipsum</p>
+                <p style="color:#737c8b; font-size: 0.8em;">Lorem Ipsum</p>
+                <p style="color:#737c8b; font-size: 0.8em;">Lorem Ipsum</p>
+            </div>
+            <div class="w3-col" style="width: 30%">
+                <p style="color:#fbffff; font-size: small;"><strong>S O C I A L</strong></p>
+                <p style="color:#737c8b;"><i style="color:#737c8b;" class="fa fa-facebook" aria-hidden="true">  Facebook</i></p>
+                <p style="color:#737c8b;"><i style="color:#737c8b;" class="fa fa-yelp" aria-hidden="true">  Yelp</i></p>
+                <p style="color:#737c8b;"><i style="color:#737c8b;" class="fa fa-google-plus" aria-hidden="true">  Goolge+</i></p>
+            </div>
+            <div class="w3-col" style="width: 30%">
+                <p style="color:#fbffff; font-size: small;"><strong>C O M P A N Y</strong></p>
+                <p style="color:#737c8b; font-size: 0.8em;">Privacy Policy</p>
+                <p style="color:#737c8b; font-size: 0.8em;">Terms and Condition</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAR0thcfyjyhkAVAIrzyKocCTJE2YYQDrs&callback=initMap"></script>
+
+
+</body>
+
+</html>
